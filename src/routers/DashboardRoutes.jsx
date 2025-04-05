@@ -6,7 +6,7 @@ import Contacto from '../pages/Contacto'
 import Footer from '../layout/Footer'
 import Header from '../layout/Header'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import NavBar from '../components/navbar'
+import NavBar from '../components/NaBbar'
 import Talles from '../pages/Talles'
 
 const DashboardRoutes = () => {

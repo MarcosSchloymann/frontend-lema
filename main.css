@@ -1,0 +1,31 @@
+.button-header {
+    text-decoration: none;
+    color: white;
+}
+
+.contactar{
+    color: white;
+}
+
+.contactar:hover{
+    color: greenyellow;
+}
+
+h4{
+    color: greenyellow;
+}
+
+.img-talles{
+    width: 60%;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(10deg, rgba(255,255,255,1) 0%, rgba(125,242,5,1) 0%, rgba(255,255,255,1) 78%, rgba(0,0,0,1) 100%);
+}
+
+.card{
+    padding-inline:1% ;
+    width: 25%;
+    height: auto;
+}

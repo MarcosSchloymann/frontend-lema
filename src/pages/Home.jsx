@@ -1,28 +1,23 @@
 import React from 'react'
+import Card from '../components/Card'
 
 const Home = () => {
   return (
-    <div>
-      <div className='container text-center'>
-        <h1>Home</h1>
-      </div>
+    <section className="latest-podcast-section section-padding pb-0" id="section_2">
+    <div className="container">
+        <div className="row justify-content-center">
 
-      <br />
+            <div className="col-lg-12 col-12">
+                <div className="section-title-wrap mb-5">
+                    <h4 className="section-title">Diseños y Moldes</h4>
+                </div>
+            </div>
 
-      <div className='container'>
+           <Card/>
 
-        <div class="card">
-          <img src="" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
         </div>
-
-      </div>
-
-
-
     </div>
+</section>
   )
 }
 

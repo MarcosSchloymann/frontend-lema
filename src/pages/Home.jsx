@@ -7,7 +7,7 @@ const Home = () => {
     <div className="container">
         <div className="row justify-content-center">
 
-            <div className="col-lg-12 col-12">
+            <div className="col-lg-12 col-12 px-5">
                 <div className="section-title-wrap mb-5">
                     <h4 className="section-title">Diseños y Moldes</h4>
                 </div>

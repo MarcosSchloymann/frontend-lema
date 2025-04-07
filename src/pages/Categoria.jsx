@@ -1,18 +1,27 @@
 import React from 'react'
+import Card from '../components/Card'
 
 const Categoria = () => {
   return (
-    <div className='container text-center text-white'>
-      <h1 className=''>Categoria</h1>
-      <br />
-      <h3 className='text-white'>CAMISETAS</h3>
-      <h3 className='text-white'>SHORTS</h3>
-      <h3 className='text-white'>CONJUNTOS</h3>
-      <h3 className='text-white'>CALZAS</h3>
-      <h3 className='text-white'>TOPS</h3>
-      <h3 className='text-white'>CAMPERAS</h3>
+    <section className="latest-podcast-section section-padding pb-0 pt-0" id="section_2">
+    <div className="container">
+        <div className="row justify-content-center">
 
+            <div className="col-lg-12 col-12">
+                <div className="section-title-wrap mb-5">
+                    <h4 className="section-title">Nuestros Productos</h4>
+                </div>
+            </div>
+
+           <Card/>
+           <Card/>
+           <Card/>
+           <Card/>
+
+
+        </div>
     </div>
+</section>
   )
 }
 

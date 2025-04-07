@@ -1,4 +1,32 @@
-
 .img-talles{
     width: 60%;
+}
+
+.circulo-ext{
+    background-color:  #11BC09;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    opacity: 80%;
+    margin-left: 2%;
+}
+
+.icon-contact{
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.icon-contact:hover{
+    color: rgb(91, 89, 89);
+}
+
+@media only screen and (max-width: 650px) {
+    .circulo-ext{
+        display: none;
+    }
 }

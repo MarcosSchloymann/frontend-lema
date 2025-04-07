@@ -3,7 +3,7 @@ import Card from '../components/Card'
 
 const Home = () => {
   return (
-    <section className="latest-podcast-section section-padding pb-0" id="section_2">
+    <section className="latest-podcast-section section-padding pb-0 pt-0" id="section_2">
     <div className="container">
         <div className="row justify-content-center">
 
@@ -14,6 +14,10 @@ const Home = () => {
             </div>
 
            <Card/>
+           <Card/>
+           <Card/>
+           <Card/>
+
 
         </div>
     </div>

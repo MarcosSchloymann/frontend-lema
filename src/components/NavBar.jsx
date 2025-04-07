@@ -5,7 +5,7 @@ import Logo from '../../public/img/logo-nav.jpg'
 const NavBar = () => {
     return (
 <>
-        <nav className="navbar navbar-expand-lg p-2">
+        <nav className="navbar navbar-expand-lg">
             <div className="container">
                 <a className="navbar-brand me-lg-5 me-0" href="index.html">
                     <img src={Logo} className="logo-image img-fluid p-4" alt="templatemo pod talk"/>

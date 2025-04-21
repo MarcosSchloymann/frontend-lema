@@ -5,7 +5,7 @@ import Logo from '../../public/img/logo-nav.jpg'
 const NavBar = () => {
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg navbar-dark container">
+			<nav className="navbar navbar-expand-md navbar-dark container">
 				<div className="container-fluid">
 					<div className='d-flex'>
 						<NavLink className="nav-link-1 d-flex flex-row justify-contents-center align-items-center text-danger px-1" to="/inicio">

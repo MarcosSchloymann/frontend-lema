@@ -4,7 +4,7 @@ const ButtonWp = () => {
   return (
     <div className='circulo-ext'>   
         <a href="" className='icon-contact'>
-        <i className="fa-brands fa-whatsapp"></i>
+        <i className="fa-brands fa-whatsapp text-danger"></i>
         </a>
     </div>
   )

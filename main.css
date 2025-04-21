@@ -1,0 +1,111 @@
+.hero-area {
+    height: 100lvh;
+}
+
+.hero-bg {
+    background-image: url(./public/img/headerImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(1px);
+}
+
+.btn-header {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 5%;
+}
+
+.position-nav {
+    position: relative;
+    top: 10%;
+}
+
+.vr {
+    border-left: 4px solid rgb(135, 233, 43);
+}
+
+.lema-nav {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.lema-nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    padding: 0;
+    height: 100%;
+}
+
+.font-nav {
+    font-family: "Corinthia", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.icon-contact {
+    font-size: x-large;
+}
+
+.circulo-ext {
+    position: fixed;
+    left: 95%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: rgba(171, 243, 54, 0.589);
+    height: auto;
+    width:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo-ext-1 {
+    position: fixed;
+    left: 95%;
+    top: 60%;
+    border-radius: 50%;
+    background-color: rgba(171, 243, 54, 0.589);
+    height: auto;
+    width:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link-1{
+    text-decoration: none;
+}
+
+.sub-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: auto;
+}
+
+.sub-header-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    color: rgb(135, 233, 43);
+}

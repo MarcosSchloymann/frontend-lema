@@ -11,32 +11,43 @@ import ButtonIg from '../components/ButtonIg'
 import ButtonWp from '../components/ButtonWp'
 
 const DashboardRoutes = () => {
-  return (
-    <div className=''>
+    return (
+        <div className=''>
 
-            <Header/>
-            {/* <ButtonIg/>
+            <Header />
+            <div className='sub-header '>
+
+                <div className='sub-header-content'>
+                <div className="h1">hola</div>
+                <div className="h1">hola</div>
+                <div className="h1">hola</div>
+                <div className="h1">hola</div>
+                </div>
+            
+            </div>
+            <ButtonIg />
             <br />
+
             <br />
-            <br />
-            <ButtonWp/>
-           
+            <ButtonWp />
+
             <div>
+
                 <Routes>
                     <Route path="/inicio"
-                        element={<Home/>}
+                        element={<Home />}
                     />
                     <Route exact path="/categorias"
-                        element={<Categoria/>}
+                        element={<Categoria />}
                     />
                     <Route exact path="/preguntas"
-                        element={<Preguntas/>}
+                        element={<Preguntas />}
                     />
-                    <Route exact path="/contacto"
+                    {/* <Route exact path="/contacto"
                         element={<Contacto/>}
-                    />
+                    /> */}
                     <Route exact path="/talles"
-                        element={<Talles/>}
+                        element={<Talles />}
                     />
                     <Route
                         path="*"
@@ -45,9 +56,9 @@ const DashboardRoutes = () => {
                 </Routes>
                 <br />
             </div>
-            <Footer/> */}
+            <Footer />
         </div>
-  )
+    )
 }
 
 export default DashboardRoutes

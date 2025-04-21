@@ -1,0 +1,11 @@
+
+$principal:rgb(135, 233, 43);
+$bg-nb:rgba(0, 0, 0, 0.411);
+$bg-btn:rgba(171, 243, 54, 0.295);
+$blco: rgb(255, 255, 255);
+$dark: $bg-nb;
+$danger:$principal;
+$h1-font-size:  4rem;
+
+
+@import"./../node_modules/bootstrap/scss/bootstrap.scss"

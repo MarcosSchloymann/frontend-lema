@@ -7,14 +7,14 @@ const Home = () => {
 
       <div className="product-section container">
        
-          <div className="line-section row d-flex container justify-contents-center align-items-center">
-          <div className="col-lg-4 px-5 p-3">
+          <div className="line-section row d-flex container justify-content-center align-items-center">
+          <div className="col-md-4 p-3 card-space">
             <Card />
           </div>
-          <div className="col-lg-4 px-5 p-3">
+          <div className="col-md-4 p-3 card-space">
             <Card />
           </div>
-          <div className="col-lg-4 px-5 p-3">
+          <div className="col-md-4 p-3 card-space">
             <Card />
           </div>
 

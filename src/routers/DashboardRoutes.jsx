@@ -18,10 +18,22 @@ const DashboardRoutes = () => {
             <div className='sub-header '>
 
                 <div className='sub-header-content'>
-                <div className="h1">hola</div>
-                <div className="h1">hola</div>
-                <div className="h1">hola</div>
-                <div className="h1">hola</div>
+                <div className="img-sub-header">
+                    <img src="./public/img/productos.png" alt="prod" />
+                    <h6 className='text-danger'>PRODUCTOS</h6>
+                </div>
+                <div className="img-sub-header">
+                <img src="./public/img/stock.png" alt="stock" />
+                <h6 className='text-danger'>STOCK</h6>
+                </div>
+                <div className="img-sub-header">
+                <img src="./public/img/estamos.png" alt="estamos" />
+                <h6 className='text-danger'>ESTAMOS</h6>
+                </div>
+                <div className="img-sub-header">
+                <img src="./public/img/talles.png" alt="talles" />
+                <h6 className='text-danger'>TALLES</h6>
+                </div>
                 </div>
             
             </div>

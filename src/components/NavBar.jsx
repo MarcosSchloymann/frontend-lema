@@ -31,7 +31,7 @@ const NavBar = () => {
 					<div className="collapse navbar-collapse primary justify-content-end" id="navbarNav">
 						<ul className="navbar-nav px-5">
 							<li className="nav-item px-5">
-								<NavLink className="nav-link" to="/preguntas">PREGUNTAS FRECUENTES</NavLink>
+								<NavLink className="nav-link  fw-bolder" to="/preguntas">PREGUNTAS FRECUENTES</NavLink>
 							</li>
 							<li className="nav-item px-5">
 								<NavLink className="nav-link" to="/talles">CATEGORÍA</NavLink>

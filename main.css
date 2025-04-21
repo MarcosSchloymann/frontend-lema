@@ -1,5 +1,5 @@
-.body{
-    background-color:  rgba(0, 0, 0, 0.815);
+.body {
+    background-color: rgba(0, 0, 0, 0.815);
 }
 
 .hero-area {
@@ -75,7 +75,7 @@ nav span {
     border-radius: 50%;
     background-color: rgba(171, 243, 54, 0.589);
     height: 2.5rem;
-    width:2.5rem;
+    width: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ nav span {
     left: 92%;
     top: 60%;
     height: 2.5rem;
-    width:2.5rem;
+    width: 2.5rem;
     border-radius: 50%;
     background-color: rgba(171, 243, 54, 0.589);
     display: flex;
@@ -94,67 +94,87 @@ nav span {
     align-items: center;
 }
 
-@media (width <= 1050px) {
-    .circulo-ext, .circulo-ext-1 {
-      display: none;
+@media (width <=1050px) {
+
+    .circulo-ext,
+    .circulo-ext-1 {
+        display: none;
     }
 
-  }
+}
 
-.nav-link-1{
+.nav-link-1 {
     text-decoration: none;
 }
 
-.sub-header{
+.sub-header {
     width: 100%;
     display: flex;
     justify-content: center;
     background: black;
     height: auto;
+    padding: 1%;
 }
 
-.sub-header-content{
+@media (width <=768px) {
+    .sub-header {
+        display: none;
+    }
+}
+
+.sub-header-content {
     width: 60%;
     display: flex;
     justify-content: space-evenly;
-    background-color: transparent;
-    color: rgb(135, 233, 43);
+    background-color: BLACK;
 }
 
-.contenedor-card{
-    width:85%;
+.img-sub-header {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sub-header img {
+    height: 100%;
+}
+
+.contenedor-card {
+    width: 85%;
     height: 30rem;
 }
 
-@media (width <= 1200px) {
-    .contenedor-card{
-        width:auto;
+@media (width <=1200px) {
+    .contenedor-card {
+        width: auto;
         height: 25rem;
     }
-  }
+}
 
-  @media (width <= 992px) {
-    .contenedor-card{
-        width:auto;
+@media (width <=992px) {
+    .contenedor-card {
+        width: auto;
         height: 17.5rem;
     }
-  }
+}
 
-  @media (width <= 768px) {
-    .contenedor-card{
-        width:60%;
+@media (width <=768px) {
+    .contenedor-card {
+        width: 60%;
         height: 25rem;
     }
 
-    .card-space{
+    .card-space {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-  }
+}
 
-.cardt{
-    width:100%;
+.cardt {
+    width: 100%;
     height: 100%;
     position: relative;
     background-image: url(./public/img/conjuntosUnisex.jpg);
@@ -164,8 +184,9 @@ nav span {
     border-radius: 18px;
     /* box-shadow: #000 0px 11px 15px 0px; */
 }
-.cardt-1{
-    width:100%;
+
+.cardt-1 {
+    width: 100%;
     height: 100%;
     position: relative;
     background-image: url(./public/img/calzasFem.jpg);
@@ -177,8 +198,9 @@ nav span {
     border-radius: 18px;
     /* box-shadow: #000 0px 11px 15px 0px; */
 }
-.cardt-2{
-    width:100%;
+
+.cardt-2 {
+    width: 100%;
     height: 100%;
     position: relative;
     background-image: url(./public/img/topFem.jpg);
@@ -189,8 +211,9 @@ nav span {
     border-radius: 18px;
     /* box-shadow: #000 0px 11px 15px 0px; */
 }
-.cardt-3{
-    width:100%;
+
+.cardt-3 {
+    width: 100%;
     height: 100%;
     position: relative;
     background-image: url(./public/img/shoresMasc.jpg);
@@ -201,8 +224,9 @@ nav span {
     border-radius: 18px;
     /* box-shadow: #000 0px 11px 15px 0px; */
 }
-.cardt-4{
-    width:100%;
+
+.cardt-4 {
+    width: 100%;
     height: 100%;
     position: relative;
     background-image: url(./public/img/articulosVarios.jpg);
@@ -213,8 +237,9 @@ nav span {
     border-radius: 18px;
     /* box-shadow: #000 0px 11px 15px 0px; */
 }
-.cardt-5{
-    width:100%;
+
+.cardt-5 {
+    width: 100%;
     height: 100%;
     position: relative;
     background-image: url(./public/img/shoresFem.jpg);
@@ -226,7 +251,12 @@ nav span {
     /* box-shadow: #000 0px 11px 15px 0px; */
 }
 
-.cardt .overlay, .cardt-1 .overlay, .cardt-2 .overlay, .cardt-3 .overlay, .cardt-4 .overlay, .cardt-5 .overlay{
+.cardt .overlay,
+.cardt-1 .overlay,
+.cardt-2 .overlay,
+.cardt-3 .overlay,
+.cardt-4 .overlay,
+.cardt-5 .overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,29 +269,29 @@ nav span {
     background-color: rgba(0, 0, 0, 0.541);
     opacity: 0;
     transition: 0.3s;
-    border-radius: 18px;    
+    border-radius: 18px;
 }
 
-.cardt:hover .overlay{
+.cardt:hover .overlay {
     opacity: 1;
 }
 
-.cardt-1:hover .overlay{
+.cardt-1:hover .overlay {
     opacity: 1;
 }
 
-.cardt-2:hover .overlay{
+.cardt-2:hover .overlay {
     opacity: 1;
 }
 
-.cardt-3:hover .overlay{
+.cardt-3:hover .overlay {
     opacity: 1;
 }
 
-.cardt-4:hover .overlay{
+.cardt-4:hover .overlay {
     opacity: 1;
 }
 
-.cardt-5:hover .overlay{
+.cardt-5:hover .overlay {
     opacity: 1;
 }

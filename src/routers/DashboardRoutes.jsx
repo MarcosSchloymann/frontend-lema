@@ -13,8 +13,9 @@ import ButtonWp from '../components/ButtonWp'
 const DashboardRoutes = () => {
   return (
     <div className=''>
+
             <Header/>
-            <ButtonIg/>
+            {/* <ButtonIg/>
             <br />
             <br />
             <br />
@@ -44,7 +45,7 @@ const DashboardRoutes = () => {
                 </Routes>
                 <br />
             </div>
-            <Footer/>
+            <Footer/> */}
         </div>
   )
 }

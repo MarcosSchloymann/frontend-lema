@@ -9,6 +9,10 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import Talles from '../pages/Talles'
 import ButtonIg from '../components/ButtonIg'
 import ButtonWp from '../components/ButtonWp'
+import prodImg from '../../public/img/productos.png'
+import stockImg from '../../public/img/stock.png'
+import estamosImg from '../../public/img/estamos.png'
+import tallesImg from '../../public/img/talles.png'
 
 const DashboardRoutes = () => {
     return (
@@ -19,19 +23,19 @@ const DashboardRoutes = () => {
 
                 <div className='sub-header-content'>
                 <div className="img-sub-header">
-                    <img src="./public/img/productos.png" alt="prod" />
+                    <img src={prodImg} alt="prod" />
                     <h6 className='text-danger'>PRODUCTOS</h6>
                 </div>
                 <div className="img-sub-header">
-                <img src="./public/img/stock.png" alt="stock" />
+                <img src={stockImg} alt="stock" />
                 <h6 className='text-danger'>STOCK</h6>
                 </div>
                 <div className="img-sub-header">
-                <img src="./public/img/estamos.png" alt="estamos" />
+                <img src={estamosImg} alt="estamos" />
                 <h6 className='text-danger'>ESTAMOS</h6>
                 </div>
                 <div className="img-sub-header">
-                <img src="./public/img/talles.png" alt="talles" />
+                <img src={tallesImg} alt="talles" />
                 <h6 className='text-danger'>TALLES</h6>
                 </div>
                 </div>

@@ -10,10 +10,7 @@ const NavBar = () => {
 					<div className='d-flex'>
 						<NavLink className="nav-link-1 d-flex flex-row justify-contents-center align-items-center text-danger px-1" to="/inicio">
 							<div className='px-2 d-flex flex-column justify-contents-center align-items-center'>
-								<h2 className='lema-nav'>
-									LEMA
-								</h2>
-								<span className='text-white nav-text'> SPORTS</span>
+								<img src={Logo} height="100rem" alt="lema" />
 							</div>
 							<div className='vr '></div>
 							<span className='font-nav text-danger px-1'> Tienda Online</span>

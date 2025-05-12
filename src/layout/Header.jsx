@@ -20,9 +20,7 @@ const Header = () => {
                     <h1 className="subtitle py-4 text-danger">INDUMENTARIA DEPORTIVA</h1>
                     <h1 className='text-white'>PERSONALIZADA</h1>
                     <div className="btn-header">
-                      <button className='btn btn-dark text-danger'>
-                        ESCRIBINOS <i className="fa-brands fa-whatsapp"></i>
-                      </button>
+                        <a href="https://wa.me/+5493872544368" className='btn btn-dark text-danger' target='_blank'>ESCRIBINOS <i className="fa-brands fa-whatsapp"></i></a>
                     </div>
                   </div>
                 </div>

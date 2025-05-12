@@ -183,7 +183,16 @@ nav span {
     background-position: center;
     color: #fff;
     border-radius: 18px;
-    /* box-shadow: #000 0px 11px 15px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.272);
+    transition: 0.3s;
+    border-radius: 18px;
 }
 
 .cardt-1 {
@@ -197,7 +206,16 @@ nav span {
     background-size: 100%;
     color: #fff;
     border-radius: 18px;
-    /* box-shadow: #000 0px 11px 15px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.272);
+    transition: 0.3s;
+    border-radius: 18px;
 }
 
 .cardt-2 {
@@ -210,7 +228,16 @@ nav span {
     background-repeat: no-repeat;
     color: #fff;
     border-radius: 18px;
-    /* box-shadow: #000 0px 11px 15px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.272);
+    transition: 0.3s;
+    border-radius: 18px;
 }
 
 .cardt-3 {
@@ -223,7 +250,16 @@ nav span {
     background-repeat: no-repeat;
     color: #fff;
     border-radius: 18px;
-    /* box-shadow: #000 0px 11px 15px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.272);
+    transition: 0.3s;
+    border-radius: 18px;
 }
 
 .cardt-4 {
@@ -236,7 +272,16 @@ nav span {
     background-repeat: no-repeat;
     color: #fff;
     border-radius: 18px;
-    /* box-shadow: #000 0px 11px 15px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.272);
+    transition: 0.3s;
+    border-radius: 18px;
 }
 
 .cardt-5 {
@@ -249,7 +294,16 @@ nav span {
     background-repeat: no-repeat;
     color: #fff;
     border-radius: 18px;
-    /* box-shadow: #000 0px 11px 15px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.272);
+    transition: 0.3s;
+    border-radius: 18px;
 }
 
 .cardt .overlay,
@@ -258,38 +312,68 @@ nav span {
 .cardt-3 .overlay,
 .cardt-4 .overlay,
 .cardt-5 .overlay {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.272);
-    opacity: 1;
+    opacity: 0;
     transition: 0.3s;
     border-radius: 18px;
 }
 
+.cardt:hover .hiden-desc{
+    display: none;
+}
+
 .cardt:hover .overlay {
     opacity: 1;
+    display: flex;
+}
+
+.cardt-1:hover .hiden-desc{
+    display: none;
 }
 
 .cardt-1:hover .overlay {
-    opacity: 1;
+   opacity: 1;
+   display: flex;
+}
+
+.cardt-2:hover .hiden-desc{
+    display: none;
 }
 
 .cardt-2:hover .overlay {
     opacity: 1;
+    display: flex;
+}
+
+.cardt-3:hover .hiden-desc{
+    display: none;
 }
 
 .cardt-3:hover .overlay {
     opacity: 1;
+    display: flex;
+}
+
+.cardt-4:hover .hiden-desc{
+    display: none;
 }
 
 .cardt-4:hover .overlay {
     opacity: 1;
+    display: flex;
+}
+
+.cardt-5:hover .hiden-desc{
+    display: none;
 }
 
 .cardt-5:hover .overlay {
     opacity: 1;
+    display: flex;
 }

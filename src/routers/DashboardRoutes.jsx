@@ -13,6 +13,9 @@ import prodImg from '../../public/img/productos.png'
 import stockImg from '../../public/img/stock.png'
 import estamosImg from '../../public/img/estamos.png'
 import tallesImg from '../../public/img/talles.png'
+import Design from '../pages/Design'
+import OtrosProductos from '../pages/OtrosProductos'
+import Clientes from '../pages/Clientes'
 
 const DashboardRoutes = () => {
     return (
@@ -53,17 +56,23 @@ const DashboardRoutes = () => {
                     <Route path="/inicio"
                         element={<Home />}
                     />
-                    <Route exact path="/categorias"
-                        element={<Categoria />}
-                    />
                     <Route exact path="/preguntas"
                         element={<Preguntas />}
                     />
-                    {/* <Route exact path="/contacto"
-                        element={<Contacto/>}
-                    /> */}
+                    <Route exact path="/categoria"
+                        element={<Categoria />}
+                    />
                     <Route exact path="/talles"
                         element={<Talles />}
+                    />
+                    <Route exact path="/diseno"
+                        element={<Design />}
+                    />
+                    <Route exact path="/otrosproductos"
+                        element={<OtrosProductos />}
+                    />
+                    <Route exact path="/clientes"
+                        element={<Clientes />}
                     />
                     <Route
                         path="*"

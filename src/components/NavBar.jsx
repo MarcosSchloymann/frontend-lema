@@ -27,14 +27,23 @@ const NavBar = () => {
 
 					<div className="collapse navbar-collapse primary justify-content-end" id="navbarNav">
 						<ul className="navbar-nav px-5">
-							<li className="nav-item px-5">
-								<NavLink className="nav-link  fw-bolder" to="/preguntas">PREGUNTAS FRECUENTES</NavLink>
+							<li className="nav-item px-2">
+								<NavLink className="nav-link" to="/preguntas">PREGUNTAS FRECUENTES</NavLink>
 							</li>
-							<li className="nav-item px-5">
-								<NavLink className="nav-link" to="/talles">CATEGORÍA</NavLink>
+							<li className="nav-item px-2">
+								<NavLink className="nav-link" to="/categoria">INDUMENTARIA</NavLink>
 							</li>
-							<li className="nav-item px-5">
-								<NavLink className="nav-link" to="/categorias">STOKS</NavLink>
+							<li className="nav-item px-2">
+								<NavLink className="nav-link" to="/talles">TALLES</NavLink>
+							</li>
+							<li className="nav-item px-2">
+								<NavLink className="nav-link" to="/diseno">DISEÑOS</NavLink>
+							</li>
+							<li className="nav-item px-2">
+								<NavLink className="nav-link" to="/otrosproductos">OTROS PRODUCTOS</NavLink>
+							</li>
+							<li className="nav-item px-2">
+								<NavLink className="nav-link" to="/clientes">CLIENTES</NavLink>
 							</li>
 						</ul>
 					</div>

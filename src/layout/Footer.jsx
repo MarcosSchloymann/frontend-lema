@@ -21,7 +21,7 @@ const Footer = () => {
 							<h2 className="widget-title text-center">Contáctanos</h2>
 							<ul>
 								<li>Hacemos envíos a todo el país</li>
-								<a href="https://www.instagram.com/lemasc23?igsh=OXRpaXR5d2FmZ2hq"><li>Instagram: @lemasc23</li></a>
+								<a href="https://www.instagram.com/lemasc23?igsh=OXRpaXR5d2FmZ2hq" target='-blank'><li>Instagram: @lemasc23</li></a>
 								<a href="https://wa.me/+5493872544368" target='_blank'><li>+54 9 387 2544368</li></a>
 							</ul>
 						</div>

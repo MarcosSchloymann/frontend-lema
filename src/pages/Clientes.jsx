@@ -38,7 +38,7 @@ const Clientes = () => {
             <div className="row py-3">
         <div className="col-md-3">
           <h2 className="text-center text-white">Club Real Zafra</h2>
-          <h3 className="text-center text-danger">Pres. Roque Saenz Peña - Chaco</h3>
+          <h3 className="text-center text-danger">Roque Saenz Peña - Chaco</h3>
         </div>
         <div className="col-md-9">
           <img src="" alt="img" />
